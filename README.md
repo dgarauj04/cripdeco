@@ -1,6 +1,6 @@
 # Criptografia de Texto 🔒
 
-![Logo do Projeto](img.png/street.png)
+![Logo do Projeto](img.png/street.png.png)
 
 ## Descrição 📜
 
