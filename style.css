@@ -22,7 +22,14 @@
 
 body {
     height: 100vh;
-    background-color: var(--cor-primaria);
+     background-image: url('caminho/para/sua/imagem.jpg'); 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  background-position: center; 
+  background-attachment: fixed; 
+  margin: 0;
+  padding: 0;
+  height: 100vh; 
     box-sizing: border-box;
 }
 
@@ -60,7 +67,7 @@ body {
     height: 330px;
     font-size: 20px;
     color: var(--cor-digite);
-    background: transparent;
+    background: var(--cor-primaria);
     box-shadow: none;
     border: none;
     outline: 0;
