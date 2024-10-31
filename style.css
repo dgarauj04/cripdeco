@@ -63,16 +63,17 @@ body {
 }
 
 #conteudo__texto {
-    width: 345px;
-    height: 330px;
+    width: 330px;
+    height: 320px;
     font-size: 20px;
-    color: var(--cor-digite);
-    background: var(--cor-primaria);
+    color: #f1a22dfa;
+    background: #261111e6;
     box-shadow: none;
     border: none;
     outline: 0;
     padding: 10px;
     text-transform: lowercase;
+    border-radius: 20px;
 }
 
 #logo {
@@ -148,8 +149,8 @@ cursor: pointer;
     height: 16px;
     gap: 0px;
     opacity: 0.8px;
-    font-size: 12px;
-    font-weight: 400;
+    font-size: 15px;
+    font-weight: 525;
     line-height: 18px;
     text-align: left;
     color: var(--coraviso);
