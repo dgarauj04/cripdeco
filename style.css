@@ -33,7 +33,7 @@ body {
     box-sizing: border-box;
   width: 100%;
     height: 3%;
-  backdrop-filter: blur(2px); /* Altera o valor para ajustar o nível de desfoque */
+  backdrop-filter: blur(4px); /* Altera o valor para ajustar o nível de desfoque */
   z-index: -1; /* Coloca a camada atrás do conteúdo */
 }
 
