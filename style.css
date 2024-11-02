@@ -39,7 +39,7 @@ body {
 
 .cabecalho {
     display: flex;
-    flex-direction: inline;
+  flex-direction: inline;
     justify-content: space-between;
     padding: 2%;
 }
@@ -68,7 +68,7 @@ body {
 }
 
 #conteudo__texto {
-    width: 330px;
+    width: 270px;
     height: 320px;
     font-size: 20px;
     color: #f1a22dfa;
@@ -87,9 +87,9 @@ body {
      border: 4px solid var(--cor-informacao);
      border-radius: 25px;
      background-color: var(--cor-secundaria);
-     width: 350px;
-     height: 440px;
-     margin-right: 4%;
+     width: 380px;
+     height: 430px;
+     margin-left: 4%;
 }
 
 #logo h1 {
@@ -130,6 +130,7 @@ margin-top: 6%;
 
 .container_bot button:hover {
     background-color: var(--cor-seta);
+  border: 2px solid var(--cor-informacao);
 }
 
 .btn_copiar {
@@ -147,6 +148,7 @@ cursor: pointer;
 
 .btn_copiar:hover{
     background-color: #3f1505;
+ 
 }
 
 .aviso {
@@ -180,9 +182,10 @@ left: 30px
     }
 
 .rodape h2{
-     font-size: 14px;
-     color: var(--coraviso);
+     font-size: 20px;
+     color: #c2c908;
 }
+
 
 .icons__link ion-icon {
   display: inline-flex;
@@ -197,4 +200,77 @@ left: 30px
 .icons__link ion-icon:hover{
      color: var(--cor-icone);
   transform: scale(1.2);
+}
+
+/*responsividade*/
+@media(max-width: 750px),
+@media (max-width: 460px){
+ 
+  body{
+    background-repeat: no-repeat; 
+  background-size: cover; 
+  background-position: center; 
+  background-attachment: fixed; 
+    backdrop-filter: blur(1px);
+  }
+  
+   header {
+          display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+       background-color: transparent;        
+}
+  
+   main {
+   flex-direction: column;
+    align-items: center;
+  }
+  
+  .container_input, #conteudo__texto {
+    max-width: 175px;
+  }
+  
+  #logo {
+     max-width: 350px;
+    max-height: 380px;
+    padding: 2%;
+    margin-bottom: 5px;
+  }
+  
+  #logo img {
+    max-width: 150px;
+    max-height: 150px;
+    width: auto;
+    height: auto;
+    margin-top: 6%;
+}
+  
+  .aviso {
+    width: 226px;
+    height: 16px;
+    gap: 0px;
+    opacity: 0.8px;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 5px;
+}
+  
+  .container_bot button {
+    width: 120px;
+    height: 50px;
+    margin-top: 10px;
+}
+  
+  .btn_copiar {
+height: 50px;
+margin: 5px;
+}
+  
+  .rodape h2{
+    margin-top: 0;
+    padding: 10px;
+    font-weight: 20px;
+    font-size: 20px;
+  }
 }
