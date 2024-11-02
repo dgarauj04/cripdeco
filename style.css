@@ -39,6 +39,7 @@ body {
 
 .cabecalho {
     display: flex;
+    flex-direction: inline;
     justify-content: space-between;
     padding: 2%;
 }
@@ -184,11 +185,16 @@ left: 30px
 }
 
 .icons__link ion-icon {
-     width: 25px;
-     height: 25px;
-     color: var(--cor-icone);
+  display: inline-flex;
+  justify-content: space-between;
+  padding: 10px;
+     width: 30px;
+     height: 30px;
+     color: var(--cor-link);
+  margin-top: 25%;
 }
     
 .icons__link ion-icon:hover{
-     color: var(--cor-link);
+     color: var(--cor-icone);
+  transform: scale(1.2);
 }
