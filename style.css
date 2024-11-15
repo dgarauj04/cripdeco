@@ -23,25 +23,18 @@
 body {
     height: 100vh;
      background-image: url('img.png/colage-fla.jpg'); 
-  background-repeat: no-repeat; 
-  background-size: cover; 
-  background-position: center; 
-  background-attachment: fixed; 
+  background-position: center;  
   margin: 0;
   padding: 0;
   height: 100vh; 
-    box-sizing: border-box;
-  width: 100%;
-    height: 3%;
   backdrop-filter: blur(4px); /* Altera o valor para ajustar o nível de desfoque */
   z-index: -1; /* Coloca a camada atrás do conteúdo */
 }
 
 .cabecalho {
     display: flex;
-  flex-direction: inline;
     justify-content: space-between;
-    padding: 2%;
+    padding: 10px 2%;
 }
 
 .cabecalho img {
@@ -59,7 +52,7 @@ body {
 .container_input {
     display: flex;
     justify-content: space-between;
-    padding: 2% 0 0 4%;
+    padding: 2% 8% 0 6%;
 }
 
 .container_input .input {
